@@ -34,7 +34,7 @@ body {
 #logo2 {
     font-family: lucida sans typewriter;
     font-size: 70%;
-    color: rgb(231, 238, 223);
+    color: aliceblue;
     margin-right: 10pt;
 
 }
@@ -72,7 +72,24 @@ li {
 a:link {
     color: lawngreen;
     font-size: 150%;
-    background-color: black;
     background-blend-mode: hue;
-    text-decoration: none
+    text-decoration: none;
+}
+
+a:visited {
+    color: lawngreen;
+    font-size: 150%;
+    text-decoration: none;
+}
+
+a:active {
+    color: lawngreen;
+    font-size: 150%;
+    text-decoration: none;
+}
+
+a:hover {
+    color: aliceblue;
+    font-size: 180%;
+    text-decoration: none;
 }
