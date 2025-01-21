@@ -35,7 +35,7 @@ body {
     font-family: lucida sans typewriter;
     font-size: 70%;
     color: aliceblue;
-    margin-right: 10pt;
+    margin-right: 20pt;
 
 }
 
@@ -45,10 +45,6 @@ h5 {
     font-size: 110%;
     margin-right: 20pt;
     text-align: right;
-}
-
-.menu {
-    background-color: black;
 }
 
 ul {
