@@ -68,7 +68,6 @@ li {
 a:link {
     color: lawngreen;
     font-size: 150%;
-    background-blend-mode: hue;
     text-decoration: none;
 }
 
