@@ -61,7 +61,7 @@ h5 {
 .menu li {
     position: relative;
     float: left;
-    width: 20%;
+    width: 10%;
     text-align: center;
 }
 
@@ -90,32 +90,6 @@ a:hover {
     text-decoration: none;
 }
 
-.right {
-    width: 100%;
-    height: 45%;
-    font-size: 15pt;
-}
-
-.right h2 {
-    font-family: Bahnschrift light;
-    color: lawngreen;
-    text-align: right;
-    margin-right: 10%;
-    margin-top: 20pt;
-    font-size: 250%;
-}
-
-.right ul {
-    font-family: Bahnschrift light;
-    color: aliceblue;
-    text-align:left;
-    width: 30%;
-    margin-right: 15%;
-    margin-top: 5%;
-    margin-bottom: 10%;
-    margin-left: 60%;
-}
-
 .right strong:hover {
     font-size: 30px;
     cursor: pointer;
@@ -123,35 +97,84 @@ a:hover {
     color: lawngreen;
 }
 
-.left {
-    width: 100%;
-    height: 45%;
-    font-size: 15pt;
-}
-
-.left h2 {
-    font-family: Bahnschrift light;
-    color: lawngreen;
-    text-align: left;
-    margin-left: 10%;
-    margin-top: 20pt;
-    font-size: 250%;
-}
-
-.left ul {
-    font-family: Bahnschrift light;
-    color: aliceblue;
-    text-align: left;
-    width: 30%;
-    margin-right: 60%;
-    margin-top: 5%;
-    margin-bottom: 10%;
-    margin-left: 15%;
-}
 
 .left strong:hover {
     font-size: 30px;
     cursor: pointer;
     text-decoration-line: underline;
     color: lawngreen;
+}
+
+.flexL
+{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    margin: 12px;
+    width: 90%;
+    float: left;
+}
+.flexL div 
+{
+    margin: 10px;
+    width: 47%;
+}
+
+.flexL h2 
+{
+    font-family: Bahnschrift light;
+    color: lawngreen;
+    margin-left: 10%;
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.flexL ul 
+{
+    font-family: Bahnschrift light;
+    color: aliceblue;
+    text-align: left;
+    width: 80%;
+    margin-right: 60%;
+    margin-top: 3%;
+    margin-bottom: 10%;
+    margin-left: 13%;
+    font-size: 24px;
+}
+
+.flexR
+{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    margin: 12px;
+    float: right;
+    width: 90%;
+}
+.flexR div {
+    margin: 12px;
+    align-content:flex-end ;
+    width: 47%;
+}
+
+.flexR h2 
+{
+    font-family: Bahnschrift light;
+    color: lawngreen;
+    margin-left: 10%;
+    margin-top: 20pt;
+    font-size: 40px;
+}
+
+.flexR ul 
+{
+    font-family: Bahnschrift light;
+    color: aliceblue;
+    text-align: left;
+    width: 80%;
+    margin-right: 60%;
+    margin-top: 3%;
+    margin-bottom: 10%;
+    margin-left: 13%;
+    font-size: 24px;
 }
