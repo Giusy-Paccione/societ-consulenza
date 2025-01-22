@@ -118,6 +118,7 @@ a:hover {
 {
     margin: 10px;
     width: 47%;
+    align-content: center;
 }
 
 .flexL h2 
@@ -153,7 +154,7 @@ a:hover {
 }
 .flexR div {
     margin: 12px;
-    align-content:flex-end ;
+    align-content:center;
     width: 47%;
 }
 
