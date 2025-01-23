@@ -1,7 +1,9 @@
 .fa-brands .fa-facebook {
 
     text-align: center;
+    color: aliceblue;
+}
 
-
-
+footer {
+    background-image: url("img/tech1.jpg");
 }
