@@ -1,3 +1,4 @@
+
 * {
     margin: 0%;
     padding: 0%;
@@ -100,15 +101,21 @@ a:hover {
 
 .chisiamo {
     width: 100%;
-    height: 100%;
+    height: 80%;
     font-size: 15pt;
+}
+
+.chisiamo:hover {
+    background-image: url(img/tech.jpg);
+
+    height: 80%;
 }
 
 .chisiamo h2 {
     font-family: Bahnschrift light;
     color: lawngreen;
     text-align: right;
-    margin-right: 15%;
+    margin-right: 20%;
     margin-top: 50pt;
     font-size: 250%;
 }
@@ -151,7 +158,7 @@ a:hover {
     margin-left: 15%;
 }
 
-.valori strong:hover {
+.valori span:hover {
     font-size: 30px;
     cursor: pointer;
     text-decoration-line: underline;
@@ -196,3 +203,20 @@ a:hover {
     margin: 0 100px 0 0;
 }
 
+.flexR {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    margin: 12px;
+    float: right;
+    width: 90%;
+}
+
+.flexL {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    margin: 12px;
+    width: 90%;
+    float: left;
+}

@@ -1,4 +1,3 @@
-
 * {
     margin: 0%;
     padding: 0%;
@@ -6,6 +5,7 @@
 
 body {
     background-color: rgb(16, 15, 15);
+    background-image: url('/societ-consulenza/img/black_background_effect.gif');
 
 }
 
@@ -40,7 +40,7 @@ body {
 
 }
 
-h5 {
+.titolo h5 {
     font-family: Bahnschrift Light;
     color: lawngreen;
     font-size: 110%;
@@ -48,7 +48,8 @@ h5 {
     text-align: right;
 }
 
-ul {
+
+.menu ul {
     margin-top: 40pt;
     font-family: Bahnschrift Light;
     color: rgb(231, 238, 223);
@@ -59,16 +60,19 @@ ul {
 
 }
 
-li {
+.menu li {
+    background-color: black;
+    background-attachment: scroll;
     position: relative;
     float: left;
-    width: 20%;
+    width: 25%;
     text-align: center;
 }
 
 a:link {
     color: lawngreen;
     font-size: 150%;
+    background-blend-mode: hue;
     text-decoration: none;
 }
 
@@ -88,13 +92,4 @@ a:hover {
     color: aliceblue;
     font-size: 180%;
     text-decoration: none;
-}
-.fa-brands .fa-facebook {
-
-    text-align: center;
-    color: aliceblue;
-}
-
-footer {
-    background-image: url("img/tech1.jpg");
 }
