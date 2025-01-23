@@ -6,7 +6,11 @@
 body {
 
     background-color: rgb(16, 15, 15);
+<<<<<<< HEAD
     background-image: url(img/black_background_effect.gif);
+=======
+    background-image: url('img/black_background_effect.gif');
+>>>>>>> 1ab6dd8 (contatti finito)
 
 }
 
