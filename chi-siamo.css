@@ -1,7 +1,13 @@
 .chisiamo {
     width: 100%;
-    height: 100%;
+    height: 80%;
     font-size: 15pt;
+}
+
+.chisiamo:hover {
+    background-image: url(img/tech.jpg);
+
+    height: 80%;
 }
 
 .chisiamo h2 {
@@ -51,7 +57,7 @@
     margin-left: 15%;
 }
 
-.valori strong:hover {
+.valori span:hover {
     font-size: 30px;
     cursor: pointer;
     text-decoration-line: underline;
@@ -71,4 +77,22 @@
     margin-right: 15%;
     margin-top: 50pt;
     font-size: 250%;
+}
+
+.flexR {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    margin: 12px;
+    float: right;
+    width: 90%;
+}
+
+.flexL {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    margin: 12px;
+    width: 90%;
+    float: left;
 }
