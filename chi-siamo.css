@@ -3,6 +3,10 @@
     padding: 0%;
 }
 
+.background-color {
+    background-color: violet;
+}
+
 span.thick {
     font-weight: bold;
 }
@@ -29,7 +33,7 @@ body {
 #logo1 {
     font-family: Lucida console;
     font-size: 350%;
-    color: rgb(238, 130, 238);
+    color:lawngreen;
     text-align: right;
     padding-top: 20px;
 
@@ -45,7 +49,7 @@ body {
 
 h5 {
     font-family: Bahnschrift Light;
-    color: violet;
+    color: lawngreen;
     font-size: 110%;
     margin-right: 20pt;
     text-align: right;
@@ -66,24 +70,24 @@ h5 {
     position: relative;
     float: left;
     width: 20%;
-    text-align: center;
+    text-align: left;
 }
 
 a:link {
-    color: violet;;
+    color: lawngreen;
     font-size: 150%;
     background-blend-mode: hue;
     text-decoration: none;
 }
 
 a:visited {
-    color: violet;;
+    color: lawngreen;
     font-size: 150%;
     text-decoration: none;
 }
 
 a:active {
-    color: violet;;
+    color: lawngreen;
     font-size: 150%;
     text-decoration: none;
 }
@@ -102,9 +106,9 @@ a:hover {
 
 .chisiamo h2 {
     font-family: Bahnschrift light;
-    color: violet;
+    color: lawngreen;
     text-align: right;
-    margin-right: 20%;
+    margin-right: 15%;
     margin-top: 50pt;
     font-size: 250%;
 }
@@ -129,7 +133,7 @@ a:hover {
 
 .valori h2 {
     font-family: Bahnschrift light;
-    color: violet;
+    color: lawngreen;
     text-align: left;
     margin-left: 10%;
     margin-top: 20pt;
@@ -151,7 +155,7 @@ a:hover {
     font-size: 30px;
     cursor: pointer;
     text-decoration-line: underline;
-    color: violet;
+    color: lawngreen;
 }
 
 .team {
@@ -162,19 +166,33 @@ a:hover {
 
 .team h2 {
     font-family: Bahnschrift light;
-    color: violet;
+    color: lawngreen;
     text-align: right;
-    margin-right: 15%;
+    margin-right: 10%;
     margin-top: 50pt;
     font-size: 250%;
+    margin-bottom: 5%;
 }
-.team p {
+.team-member {
+    display: flex; /* Allinea immagine e testo in orizzontale */
+    justify-content: flex-end; /* Allinea immagine e testo a destra */
+    align-items: flex-start; /* Allinea l'immagine con la parte superiore del testo */
+    margin-bottom: 20px; /* Spazio tra i membri del team */
+}
+
+.team-member p {
     font-family: Bahnschrift light;
     color: aliceblue;
-    width: 30%;
-    margin-left: 60%;
-    margin-top: 5%;
-    margin-bottom: 10%;
-    margin-right: 10%;
-
+    text-align: right;
+    margin: 0 15px 0 0; /* Spazio tra il testo e l'immagine */
+    line-height: 1.5;
 }
+
+.team-img {
+    width: 80px; /* Dimensione dell'immagine */
+    height: auto; /* Mantiene le proporzioni */
+    border-radius: 10%; /* Rende l'immagine circolare */
+    border: 2px solid rgb(124, 252, 0); /* Bordo decorativo */
+    margin: 0 100px 0 0;
+}
+
