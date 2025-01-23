@@ -1,112 +1,4 @@
-* {
-    margin: 0%;
-    padding: 0%;
-}
-
-body {
-    background-color: rgb(16, 15, 15);
-    background-image: url('/societ-consulenza/img/black_background_effect.gif');
-}
-
-.container {
-    width: 100%;
-    height: 100vh;
-}
-
-.banner {
-    background-image: url(img/tech1.jpg);
-    width: 100%;
-    height: 25%;
-    background-position: 20pt;
-
-}
-
-
-#logo1 {
-    font-family: Lucida console;
-    font-size: 350%;
-    color: lawngreen;
-    text-align: right;
-    padding-top: 20px;
-
-}
-
-#logo2 {
-    font-family: lucida sans typewriter;
-    font-size: 70%;
-    color: aliceblue;
-    margin-right: 20pt;
-
-}
-
-h5 {
-    font-family: Bahnschrift Light;
-    color: lawngreen;
-    font-size: 110%;
-    margin-right: 20pt;
-    text-align: right;
-}
-
-.menu ul {
-    margin-top: 40pt;
-    font-family: Bahnschrift Light;
-    color: rgb(231, 238, 223);
-    max-width: 50%;
-    width: 100%;
-    height: 50%;
-    list-style: none;
-
-}
-
-.menu li {
-    position: relative;
-    float: left;
-    width: 10%;
-    text-align: center;
-}
-
-a:link {
-    color: lawngreen;
-    font-size: 150%;
-    background-blend-mode: hue;
-    text-decoration: none;
-}
-
-a:visited {
-    color: lawngreen;
-    font-size: 150%;
-    text-decoration: none;
-}
-
-a:active {
-    color: lawngreen;
-    font-size: 150%;
-    text-decoration: none;
-}
-
-a:hover {
-    color: aliceblue;
-    font-size: 180%;
-    text-decoration: none;
-}
-
-.right strong:hover {
-    font-size: 30px;
-    cursor: pointer;
-    text-decoration-line: underline;
-    color: lawngreen;
-}
-
-
-.left strong:hover {
-    font-size: 30px;
-    cursor: pointer;
-    text-decoration-line: underline;
-    color: lawngreen;
-}
-
-.flexL
-{
+.flexL {
     display: flex;
     flex-wrap: nowrap;
     align-content: flex-start;
@@ -114,25 +6,30 @@ a:hover {
     width: 90%;
     float: left;
 }
-.flexL div 
-{
+
+.flexL div {
+
     margin: 10px;
     width: 47%;
     align-content: center;
 }
 
-.flexL h2 
-{
+.flexL h2 {
     font-family: Bahnschrift light;
     color: lawngreen;
     margin-left: 10%;
     margin-top: 20px;
     font-size: 40px;
     text-align: center;
+    transition: 250ms;
 }
 
-.flexL ul 
-{
+.flexL h2:hover {
+    transition: 250ms;
+    font-size: 48px;
+}
+
+.flexL ul {
     font-family: Bahnschrift light;
     color: aliceblue;
     text-align: left;
@@ -144,8 +41,9 @@ a:hover {
     font-size: 24px;
 }
 
-.flexR
-{
+
+
+.flexR {
     display: flex;
     flex-wrap: nowrap;
     align-content: flex-start;
@@ -153,24 +51,29 @@ a:hover {
     float: right;
     width: 90%;
 }
+
 .flexR div {
     margin: 12px;
-    align-content:center;
+    align-content: center;
     width: 47%;
 }
 
-.flexR h2 
-{
+.flexR h2 {
     font-family: Bahnschrift light;
     color: lawngreen;
     margin-left: 10%;
     margin-top: 20pt;
     font-size: 40px;
     text-align: center;
+    transition: 250ms;
 }
 
-.flexR ul 
-{
+.flexR h2:hover {
+    transition: 250ms;
+    font-size: 48px;
+}
+
+.flexR ul {
     font-family: Bahnschrift light;
     color: aliceblue;
     text-align: left;
