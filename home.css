@@ -88,3 +88,13 @@ a:hover {
     font-size: 180%;
     text-decoration: none;
 }
+
+.fa-brands .fa-facebook {
+
+    text-align: center;
+    color: aliceblue;
+}
+
+footer {
+    background-image: url("img/tech1.jpg");
+}

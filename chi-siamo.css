@@ -1,205 +1,231 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.background-color {
+    background-color: violet;
+}
+
+span.thick {
+    font-weight: bold;
+}
+
+body {
+    background-color: rgb(16, 15, 15);
+
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.banner {
+    background-image: url(img/tech1.jpg);
+    width: 100%;
+    height: 25%;
+    background-position: 20pt;
+
+}
+
+
+#logo1 {
+    font-family: Lucida console;
+    font-size: 350%;
+    color: lawngreen;
+    text-align: right;
+    padding-top: 20px;
+
+}
+
+#logo2 {
+    font-family: lucida sans typewriter;
+    font-size: 70%;
+    color: aliceblue;
+    margin-right: 20pt;
+
+}
+
+h5 {
+    font-family: Bahnschrift Light;
+    color: lawngreen;
+    font-size: 110%;
+    margin-right: 20pt;
+    text-align: right;
+}
+
+.menu ul {
+    margin-top: 40pt;
+    font-family: Bahnschrift Light;
+    color: rgb(231, 238, 223);
+    max-width: 50%;
+    width: 100%;
+    height: 50%;
+    list-style: none;
+
+}
+
+.menu li {
+    position: relative;
+    float: left;
+    width: 20%;
+    text-align: left;
+}
+
+a:link {
+    color: lawngreen;
+    font-size: 150%;
+    background-blend-mode: hue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: lawngreen;
+    font-size: 150%;
+    text-decoration: none;
+}
+
+a:active {
+    color: lawngreen;
+    font-size: 150%;
+    text-decoration: none;
+}
+
+a:hover {
+    color: aliceblue;
+    font-size: 180%;
+    text-decoration: none;
+}
+
 .chisiamo {
-
+    width: 100%;
     height: 80%;
-
+    font-size: 15pt;
 }
 
 .chisiamo:hover {
     background-image: url(img/tech.jpg);
-    font-size: 15pt;
-    width: 100%;
+
     height: 80%;
+}
 
-    * {
-        margin: 0%;
-        padding: 0%;
-    }
+.chisiamo h2 {
+    font-family: Bahnschrift light;
+    color: lawngreen;
+    text-align: right;
+    margin-right: 20%;
+    margin-top: 50pt;
+    font-size: 250%;
+}
 
-    .background-color {
-        background-color: violet;
-    }
+.chisiamo p {
+    font-family: Bahnschrift light;
+    color: aliceblue;
+    text-align: left;
+    width: 30%;
+    margin-left: 60%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-right: 10%;
 
-    span.thick {
-        font-weight: bold;
-    }
+}
 
-    body {
-        background-color: rgb(16, 15, 15);
+.valori {
+    width: 100%;
+    height: 100%;
+    font-size: 15pt;
+}
 
-    }
+.valori h2 {
+    font-family: Bahnschrift light;
+    color: lawngreen;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 20pt;
+    font-size: 250%;
+}
 
-    .container {
-        width: 100%;
-        height: 100vh;
-    }
+.valori ul {
+    font-family: Bahnschrift light;
+    color: aliceblue;
+    text-align: left;
+    width: 30%;
+    margin-right: 60%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: 15%;
+}
 
-    .banner {
-        background-image: url(img/tech1.jpg);
-        width: 100%;
-        height: 25%;
-        background-position: 20pt;
+.valori span:hover {
+    font-size: 30px;
+    cursor: pointer;
+    text-decoration-line: underline;
+    color: lawngreen;
+}
 
-    }
+.team {
+    width: 100%;
+    height: 100%;
+    font-size: 15pt;
+}
 
+.team h2 {
+    font-family: Bahnschrift light;
+    color: lawngreen;
+    text-align: right;
+    margin-right: 10%;
+    margin-top: 50pt;
+    font-size: 250%;
+    margin-bottom: 5%;
+}
 
-    #logo1 {
-        font-family: Lucida console;
-        font-size: 350%;
-        color: lawngreen;
-        text-align: right;
-        padding-top: 20px;
+.team-member {
+    display: flex;
+    /* Allinea immagine e testo in orizzontale */
+    justify-content: flex-end;
+    /* Allinea immagine e testo a destra */
+    align-items: flex-start;
+    /* Allinea l'immagine con la parte superiore del testo */
+    margin-bottom: 20px;
+    /* Spazio tra i membri del team */
+}
 
-    }
+.team-member p {
+    font-family: Bahnschrift light;
+    color: aliceblue;
+    text-align: right;
+    margin: 0 15px 0 0;
+    /* Spazio tra il testo e l'immagine */
+    line-height: 1.5;
+}
 
-    #logo2 {
-        font-family: lucida sans typewriter;
-        font-size: 70%;
-        color: aliceblue;
-        margin-right: 20pt;
+.team-img {
+    width: 80px;
+    /* Dimensione dell'immagine */
+    height: auto;
+    /* Mantiene le proporzioni */
+    border-radius: 10%;
+    /* Rende l'immagine circolare */
+    border: 2px solid rgb(124, 252, 0);
+    /* Bordo decorativo */
+    margin: 0 100px 0 0;
+}
 
-    }
+.flexR {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    margin: 12px;
+    float: right;
+    width: 90%;
+}
 
-    h5 {
-        font-family: Bahnschrift Light;
-        color: lawngreen;
-        font-size: 110%;
-        margin-right: 20pt;
-        text-align: right;
-    }
-
-    .menu ul {
-        margin-top: 40pt;
-        font-family: Bahnschrift Light;
-        color: rgb(231, 238, 223);
-        max-width: 50%;
-        width: 100%;
-        height: 50%;
-        list-style: none;
-
-    }
-
-    .menu li {
-        position: relative;
-        float: left;
-        width: 20%;
-        text-align: left;
-    }
-
-    a:link {
-        color: lawngreen;
-        font-size: 150%;
-        background-blend-mode: hue;
-        text-decoration: none;
-    }
-
-    a:visited {
-        color: lawngreen;
-        font-size: 150%;
-        text-decoration: none;
-    }
-
-    a:active {
-        color: lawngreen;
-        font-size: 150%;
-        text-decoration: none;
-    }
-
-    a:hover {
-        color: aliceblue;
-        font-size: 180%;
-        text-decoration: none;
-    }
-
-    .chisiamo {
-        width: 100%;
-        height: 100%;
-        font-size: 15pt;
-    }
-
-    .chisiamo h2 {
-        font-family: Bahnschrift light;
-        color: lawngreen;
-        text-align: right;
-        margin-right: 20%;
-        margin-top: 50pt;
-        font-size: 250%;
-    }
-
-    .chisiamo p {
-        font-family: Bahnschrift light;
-        color: aliceblue;
-        text-align: left;
-        width: 30%;
-        margin-left: 60%;
-        margin-top: 5%;
-        margin-bottom: 10%;
-        margin-right: 10%;
-
-    }
-
-    .valori {
-        width: 100%;
-        height: 100%;
-        font-size: 15pt;
-    }
-
-    .valori h2 {
-        font-family: Bahnschrift light;
-        color: lawngreen;
-        text-align: left;
-        margin-left: 10%;
-        margin-top: 20pt;
-        font-size: 250%;
-    }
-
-    .valori ul {
-        font-family: Bahnschrift light;
-        color: aliceblue;
-        text-align: left;
-        width: 30%;
-        margin-right: 60%;
-        margin-top: 5%;
-        margin-bottom: 10%;
-        margin-left: 15%;
-    }
-
-    .valori span:hover {
-        font-size: 30px;
-        cursor: pointer;
-        text-decoration-line: underline;
-        color: lawngreen;
-    }
-
-    .team {
-        width: 100%;
-        height: 100%;
-        font-size: 15pt;
-    }
-
-    .team h2 {
-        font-family: Bahnschrift light;
-        color: lawngreen;
-        text-align: right;
-        margin-right: 15%;
-        margin-top: 50pt;
-        font-size: 250%;
-    }
-
-    .flexR {
-        display: flex;
-        flex-wrap: nowrap;
-        align-content: flex-start;
-        margin: 12px;
-        float: right;
-        width: 90%;
-    }
-
-    .flexL {
-        display: flex;
-        flex-wrap: nowrap;
-        align-content: flex-start;
-        margin: 12px;
-        width: 90%;
-        float: left;
-    }
+.flexL {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    margin: 12px;
+    width: 90%;
+    float: left;
 }
