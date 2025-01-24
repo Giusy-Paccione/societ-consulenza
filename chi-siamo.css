@@ -1,71 +1,122 @@
-span.thick {
-    font-weight: bold;
+.flex {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    margin: 12px;
+    width: 90%;
+    float: left;
 }
 
-.chisiamo {
-    width: 100%;
-    height: 80%;
-    font-size: 15pt;
+.flex h2:hover {
+    transition: 250ms;
+    font-size: 48px;
 }
 
-.chisiamo:hover {
-    background-image: url(img/tech.jpg);
-
-    height: 80%;
-}
-
-.chisiamo h2 {
+.flex h2 {
     font-family: Bahnschrift light;
     color: lawngreen;
-    text-align: right;
-    margin-right: 20%;
-    margin-top: 50pt;
-    font-size: 250%;
+    margin-left: 10%;
+    margin-top: 20px;
+    font-size: 40px;
+    text-align: center;
+    transition: 250ms;
+}
+
+.flexL {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    margin: 12px;
+    width: 90%;
+    float: left;
+}
+
+.flexL div {
+
+    margin: 10px;
+    width: 47%;
+    align-content: center;
+}
+
+.flexL h2 {
+    font-family: Bahnschrift light;
+    color: lawngreen;
+    margin-left: 10%;
+    margin-top: 20px;
+    font-size: 40px;
+    text-align: center;
+    transition: 250ms;
+}
+
+.flexL h2:hover {
+    transition: 250ms;
+    font-size: 48px;
+}
+
+.flexL ul {
+    font-family: Bahnschrift light;
+    color: aliceblue;
+    text-align: left;
+    width: 80%;
+    margin-right: 60%;
+    margin-top: 3%;
+    margin-bottom: 10%;
+    margin-left: 13%;
+    font-size: 24px;
+}
+
+.flexR {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    margin: 12px;
+    float: right;
+    width: 90%;
+}
+
+.flexR div {
+    margin: 12px;
+    align-content: center;
+    width: 47%;
+}
+
+.flexR h2 {
+    font-family: Bahnschrift light;
+    color: lawngreen;
+    margin-left: 10%;
+    margin-top: 20pt;
+    font-size: 40px;
+    text-align: center;
+    transition: 250ms;
+}
+
+.flexR h2:hover {
+    transition: 250ms;
+    font-size: 48px;
+}
+
+.flexR ul {
+    font-family: Bahnschrift light;
+    color: aliceblue;
+    text-align: left;
+    width: 80%;
+    margin-right: 60%;
+    margin-top: 3%;
+    margin-bottom: 10%;
+    margin-left: 13%;
+    font-size: 24px;
 }
 
 .chisiamo p {
     font-family: Bahnschrift light;
     color: aliceblue;
     text-align: left;
+    font-size: 24px;
     width: 30%;
     margin-left: 60%;
     margin-top: 5%;
     margin-bottom: 10%;
     margin-right: 10%;
-
-}
-
-.valori {
-    width: 100%;
-    height: 100%;
-    font-size: 15pt;
-}
-
-.valori h2 {
-    font-family: Bahnschrift light;
-    color: lawngreen;
-    text-align: left;
-    margin-left: 10%;
-    margin-top: 20pt;
-    font-size: 250%;
-}
-
-.valori ul {
-    font-family: Bahnschrift light;
-    color: aliceblue;
-    text-align: left;
-    width: 30%;
-    margin-right: 60%;
-    margin-top: 5%;
-    margin-bottom: 10%;
-    margin-left: 15%;
-}
-
-.valori span:hover {
-    font-size: 30px;
-    cursor: pointer;
-    text-decoration-line: underline;
-    color: lawngreen;
 }
 
 .team {
@@ -87,10 +138,10 @@ span.thick {
 .team-member {
     display: flex;
     /* Allinea immagine e testo in orizzontale */
-    justify-content: flex-end;
-    /* Allinea immagine e testo a destra */
+    justify-content: flex-start;
+    /* Allinea tutto a sinistra orizzontalmente */
     align-items: flex-start;
-    /* Allinea l'immagine con la parte superiore del testo */
+    /* Allinea tutto in alto verticalmente */
     margin-bottom: 20px;
     /* Spazio tra i membri del team */
 }
@@ -98,38 +149,18 @@ span.thick {
 .team-member p {
     font-family: Bahnschrift light;
     color: aliceblue;
-    text-align: right;
-    margin: 0 15px 0 0;
-    /* Spazio tra il testo e l'immagine */
-    line-height: 1.5;
+    text-align: left;
+    font-size: 24px;
+    width: auto;
+    margin: 0;
 }
 
 .team-img {
     width: 80px;
-    /* Dimensione dell'immagine */
     height: auto;
-    /* Mantiene le proporzioni */
     border-radius: 10%;
-    /* Rende l'immagine circolare */
+    /* immagine arrotondata */
     border: 2px solid rgb(124, 252, 0);
-    /* Bordo decorativo */
-    margin: 0 100px 0 0;
-}
-
-.flexR {
-    display: flex;
-    flex-wrap: nowrap;
-    align-content: flex-start;
-    margin: 12px;
-    float: right;
-    width: 90%;
-}
-
-.flexL {
-    display: flex;
-    flex-wrap: nowrap;
-    align-content: flex-start;
-    margin: 12px;
-    width: 90%;
-    float: left;
+    margin: 0 20px 0 0;
+    /* Spazio tra immagine e testo */
 }
