@@ -1,14 +1,24 @@
 footer {
-    background-color: rgba(14, 198, 14, 0.184);
-}
-
-.footer-section1 {}
-
-.footer-section2 {}
-
-.footer-section3 h6 a {
     text-align: center;
+    padding: 3px;
+    background-color: rgba(14, 198, 14, 0.184);
+    color: white;
+  }
+  .FlexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-end;
+    flex-direction: row;
 }
+
+.FlexContainer div {
+    width: 100px;
+    height: 50px;
+    margin: 40px;
+}
+
 
 .fa {
     padding: 1px;
