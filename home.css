@@ -1,47 +1,119 @@
-footer {
-    background-color: rgba(14, 198, 14, 0.184);
+.flexR img {
+    width: 12%;
+    margin-top: 5%;
+    margin-left: 33.5%;
+    position: absolute;
 }
 
-.footer-section1 {}
+.flexR {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin-bottom: 5%;
+    background-color: black;
+}
 
-.footer-section2 {}
+#welcome {
+    color: aliceblue;
+    font-family: Bahnschrift light;
+    margin-top: 130px;
+    margin-left: 150px;
+    font-size: 45px;
+}
 
-.footer-section3 h6 a {
+#nome {
+    font-family: Bahnschrift light;
+    color: aliceblue;
+    margin-top: 130px;
+    margin-left: 320px;
+    font-size: 45px;
+}
+
+.animate__animated.animate__fadeInLeft {
+    animation-duration: 1s;
+
+}
+
+.animate__animated.animate__fadeIn {
+    animation-duration: 1.8s;
+    animation-delay: 1.7s;
+}
+
+.animate__animated.animate__fadeInRight {
+    animation-duration: 1s;
+}
+
+.intro.animate__animated.animate__fadeIn {
+    animation-duration: 2s;
+    animation-delay: 1.7s;
+}
+
+p {
+    color: aliceblue;
+    font-family: Bahnschrift light;
+    margin-left: 380px;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 16px;
     text-align: center;
 }
 
-.fa {
-    padding: 1px;
+h5 {
+    font-family: Bahnschrift light;
+    color: lawngreen;
     font-size: 30px;
+    margin-left: 550px;
+}
+
+.flexL {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    margin: 12px;
+    width: 90%;
+    float: left;
+}
+
+.flexL div {
+    margin: 10px;
+    width: 47%;
+    align-content: center;
+}
+
+.flexL p {
+    font-family: Bahnschrift light;
+    color: aliceblue;
+    margin-left: 28%;
+    margin-top: 20px;
+    font-size: 20px;
     text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
 }
 
-.fa:hover {
-    opacity: 0.7;
+.flexL h3 {
+    font-family: Bahnschrift light;
+    color: aliceblue;
+    margin-left: 10%;
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: center;
 }
 
-.fa-facebook {
-    font-size: 60%;
-    margin-right: 10%;
-    color: white;
+h3:hover {
+    font-family: Bahnschrift light;
+    color: lawngreen;
+    font-size: 27px;
 }
 
-.fa-twitter {
-    font-size: 10%;
-    margin-right: 80%;
-    color: white;
+.flexL img {
+    margin-left: 10%;
+    border-radius: 10%;
 }
 
-.fa-linkedin {
-    font-size: 60%;
-    margin-right: 80%;
-    color: white;
-}
-
-.fa-instagram {
-    font-size: 60%;
-    margin-right: 80%;
-    color: white;
+.flex-container div {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 20%;
+    background-color: powderblue
 }
