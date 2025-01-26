@@ -124,7 +124,6 @@
     height: 100%;
     font-size: 15pt;
 }
-
 .team h2 {
     font-family: Bahnschrift light;
     color: lawngreen;
@@ -134,7 +133,6 @@
     font-size: 250%;
     margin-bottom: 5%;
 }
-
 .team-member {
     display: flex;
     /* Allinea immagine e testo in orizzontale */
@@ -145,7 +143,6 @@
     margin-bottom: 20px;
     /* Spazio tra i membri del team */
 }
-
 .team-member p {
     font-family: Bahnschrift light;
     color: aliceblue;
@@ -154,7 +151,6 @@
     width: auto;
     margin: 0;
 }
-
 .team-img {
     width: 80px;
     height: auto;
