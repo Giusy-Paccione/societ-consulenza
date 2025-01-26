@@ -49,6 +49,13 @@ body {
     animation-duration: 1s;
 }
 
+.animate__animated.animate__flash {
+    animation-duration: 3s;
+    animation-delay: 1.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.085, 0.82, 0.165, 1);
+}
+
 .intro p {
     color: aliceblue;
     font-family: Bahnschrift light;
