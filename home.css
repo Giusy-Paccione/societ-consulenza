@@ -1,57 +1,153 @@
-footer {
-    text-align: center;
-    padding: 3px;
-    background-color: rgba(14, 198, 14, 0.184);
-    color: white;
-  }
-  .FlexContainer {
+body {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.flexR img {
+    width: 12%;
+    margin-top: 5%;
+    margin-left: 33.5%;
+    position: absolute;
+}
+
+.flexR {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-    align-content: flex-end;
-    flex-direction: row;
+    align-content: flex-start;
+    margin-bottom: 5%;
+    background-color: black;
 }
 
-.FlexContainer div {
-    width: 100px;
-    height: 50px;
-    margin: 40px;
+#welcome {
+    color: aliceblue;
+    font-family: Bahnschrift light;
+    margin-top: 130px;
+    margin-left: 150px;
+    font-size: 45px;
 }
 
+#nome {
+    font-family: Bahnschrift light;
+    color: aliceblue;
+    margin-top: 130px;
+    margin-left: 320px;
+    font-size: 45px;
+}
 
-.fa {
-    padding: 1px;
+.animate__animated.animate__fadeInLeft {
+    animation-duration: 1s;
+
+}
+
+.animate__animated.animate__fadeIn {
+    animation-duration: 1.8s;
+    animation-delay: 1s;
+}
+
+.animate__animated.animate__fadeInRight {
+    animation-duration: 1s;
+}
+
+.animate__animated.animate__flash {
+    animation-duration: 3s;
+    animation-delay: 1.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.085, 0.82, 0.165, 1);
+}
+
+.intro p {
+    color: aliceblue;
+    font-family: Bahnschrift light;
+    margin-left: 380px;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.intro h5 {
+    font-family: Bahnschrift light;
+    color: lawngreen;
     font-size: 30px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
+    margin-left: 550px;
 }
 
-.fa:hover {
-    opacity: 0.7;
+.flexL {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    margin: 12px;
+    width: 90%;
+    float: left;
 }
 
-.fa-facebook {
-    font-size: 60%;
-    margin-right: 10%;
-    color: white;
+.flexL div {
+    margin: 10px;
+    width: 47%;
+    align-content: center;
 }
 
-.fa-twitter {
-    font-size: 10%;
-    margin-right: 80%;
-    color: white;
+.flexL p {
+    font-family: Bahnschrift light;
+    color: aliceblue;
+    margin-left: 28%;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: justify;
 }
 
-.fa-linkedin {
-    font-size: 60%;
-    margin-right: 80%;
-    color: white;
+.flexL h3 {
+    font-family: Bahnschrift light;
+    color: aliceblue;
+    margin-left: 10%;
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: justify;
 }
 
-.fa-instagram {
-    font-size: 60%;
-    margin-right: 80%;
-    color: white;
+h3:hover {
+    font-family: Bahnschrift light;
+    color: lawngreen;
+    font-size: 27px;
+}
+
+.flexL img {
+    margin-left: 10%;
+    border-radius: 10%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(4, 100, 4, 0.359);
+}
+
+footer .footer-section {
+    max-width: 30%;
+}
+
+.footer-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    row-gap: 20px;
+}
+
+.footer-section section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer p {
+    color: aliceblue;
+}
+
+footer h5 {
+    font-family: Bahnschrift light;
+    color: lawngreen;
+    font-size: medium;
 }
