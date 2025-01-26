@@ -1,0 +1,35 @@
+footer {
+    width:100%;
+    bottom:0px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(4, 100, 4, 0.359);
+}
+
+footer .footer-section {
+    max-width: 30%;
+}
+
+.footer-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    row-gap: 20px;
+}
+
+.footer-section section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer p {
+    color: aliceblue;
+}
+
+footer h5 {
+    font-family: Bahnschrift light;
+    color: lawngreen;
+    font-size: medium;
+}
